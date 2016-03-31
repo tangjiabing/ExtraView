@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/extra_linearlayout_tab_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/extra_linearlayout_tab_padding_tb"
+        android:paddingTop="@dimen/extra_linearlayout_tab_padding_tb" >
+
+        <TextView
+            android:id="@+id/pictureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/extra_textview_picture"
+            android:textColor="@drawable/extra_selector_textview_tab_textcolor"
+            android:textSize="@dimen/extra_font_textview_tab" />
+
+        <TextView
+            android:id="@+id/videoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/extra_textview_video"
+            android:textColor="@drawable/extra_selector_textview_tab_textcolor"
+            android:textSize="@dimen/extra_font_textview_tab" />
+
+        <TextView
+            android:id="@+id/audioText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/extra_textview_audio"
+            android:textColor="@drawable/extra_selector_textview_tab_textcolor"
+            android:textSize="@dimen/extra_font_textview_tab" />
+
+        <TextView
+            android:id="@+id/fileText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/extra_textview_file"
+            android:textColor="@drawable/extra_selector_textview_tab_textcolor"
+            android:textSize="@dimen/extra_font_textview_tab" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <Gallery
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/extra_gallery_min_height"
+            android:paddingBottom="@dimen/extra_gallery_padding_tb"
+            android:paddingTop="@dimen/extra_gallery_padding_tb"
+            android:spacing="@dimen/extra_gallery_spacing" />
+    </LinearLayout>
+
+</merge>

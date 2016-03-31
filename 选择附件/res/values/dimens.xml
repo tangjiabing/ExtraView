@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- extraview.xml -->
+    <dimen name="extra_linearlayout_tab_padding_tb">10dp</dimen>
+    <dimen name="extra_font_textview_tab">22sp</dimen>
+    <dimen name="extra_gallery_padding_tb">15dp</dimen>
+    <dimen name="extra_gallery_spacing">10dp</dimen>
+    <dimen name="extra_gallery_min_height">200dp</dimen>
+
+    <!-- extra_gallery_item.xml -->
+    <dimen name="extra_linearlayout_root_padding_gallery_item">10dp</dimen>
+    <dimen name="extra_imageview_wh_gallery_item">110dp</dimen>
+    <dimen name="extra_linearlayout_mask_wh_gallery_item">@dimen/extra_imageview_wh_gallery_item</dimen>
+    <dimen name="extra_font_textview_name_gallery_item">12sp</dimen>
+    <dimen name="extra_textview_name_width_gallery_item">@dimen/extra_imageview_wh_gallery_item</dimen>
+    <dimen name="extra_textview_name_margin_t_gallery_item">5dp</dimen>
+
+    <!-- extra_dialog.xml -->
+    <dimen name="extra_linearlayout_title_padding_lr_dialog">15dp</dimen>
+    <dimen name="extra_linearlayout_title_padding_tb_dialog">10dp</dimen>
+    <dimen name="extra_font_textview_title_dialog">12sp</dimen>
+
+    <!-- extra_dialog_listview_item.xml -->
+    <dimen name="extra_linearlayout_root_padding_lr_dialog_listview_item">15dp</dimen>
+    <dimen name="extra_linearlayout_root_padding_tb_dialog_listview_item">15dp</dimen>
+    <dimen name="extra_font_textview_operate_dialog_listview_item">16sp</dimen>
+
+    <!-- extra_audio_app_activity.xml -->
+    <dimen name="extra_relativelayout_bar_height_app">55dp</dimen>
+    <dimen name="extra_relativelayout_bar_padding_app">5dp</dimen>
+    <dimen name="extra_font_textview_title_bar_app">18sp</dimen>
+    <dimen name="extra_imageview_back_wh_app">40dp</dimen>
+    <dimen name="extra_imageview_audio_width_app">60dp</dimen>
+    <dimen name="extra_imageview_audio_height_app">50dp</dimen>
+    <dimen name="extra_imageview_audio_margin_b_app">6dp</dimen>
+    <dimen name="extra_font_textview_time_app">16sp</dimen>
+    <dimen name="extra_linearlayout_complete_height_app">45dp</dimen>
+    <dimen name="extra_view_divider_width_app">1dp</dimen>
+
+    <!-- extra_progress_dialog.xml -->
+    <dimen name="extra_titleLinearLayout_padding_lr_progress_dialog">@dimen/extra_linearlayout_title_padding_lr_dialog</dimen>
+    <dimen name="extra_titleLinearLayout_padding_tb_progress_dialog">@dimen/extra_linearlayout_title_padding_tb_dialog</dimen>
+    <dimen name="extra_font_titleText_progress_dialog">@dimen/extra_font_textview_title_dialog</dimen>
+    <dimen name="extra_labelLinearLayout_padding_progress_dialog">10dp</dimen>
+    <dimen name="extra_font_labelText_progress_dialog">16sp</dimen>
+    <dimen name="extra_font_successNumText_progress_dialog">@dimen/extra_font_labelText_progress_dialog</dimen>
+    <dimen name="extra_successNumText_margin_r_progress_dialog">50dp</dimen>
+    <dimen name="extra_font_failNumText_progress_dialog">@dimen/extra_font_labelText_progress_dialog</dimen>
+    <dimen name="extra_uploadProgressBar_margin_lr_progress_dialog">@dimen/extra_labelLinearLayout_padding_progress_dialog</dimen>
+    <dimen name="extra_font_progressText_progress_dialog">@dimen/extra_font_labelText_progress_dialog</dimen>
+    <dimen name="extra_progressText_margin_progress_dialog">@dimen/extra_labelLinearLayout_padding_progress_dialog</dimen>
+    <dimen name="extra_cancelButton_height_progress_dialog">40dp</dimen>
+    <dimen name="extra_cancelButton_margin_lr_progress_dialog">@dimen/extra_labelLinearLayout_padding_progress_dialog</dimen>
+    <dimen name="extra_cancelButton_margin_b_progress_dialog">6dp</dimen>
+    <dimen name="extra_font_cancelButton_progress_dialog">@dimen/extra_font_labelText_progress_dialog</dimen>
+    <dimen name="extra_uploadProgressBar_height_progress_dialog">15dp</dimen>
+    <dimen name="extra_uploadProgressBar_background_progress_dialog">3dp</dimen>
+    <dimen name="extra_uploadProgressBar_secondaryProgress_progress_dialog">@dimen/extra_uploadProgressBar_background_progress_dialog</dimen>
+    <dimen name="extra_uploadProgressBar_p_progress_dialog">@dimen/extra_uploadProgressBar_background_progress_dialog</dimen>
+
+</resources>

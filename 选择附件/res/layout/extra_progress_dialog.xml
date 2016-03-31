@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/extra_rootLinearLayout_bg_progress_dialog"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/extra_titleLinearLayout_bg_progress_dialog"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/extra_titleLinearLayout_padding_tb_progress_dialog"
+        android:paddingLeft="@dimen/extra_titleLinearLayout_padding_lr_progress_dialog"
+        android:paddingRight="@dimen/extra_titleLinearLayout_padding_lr_progress_dialog"
+        android:paddingTop="@dimen/extra_titleLinearLayout_padding_tb_progress_dialog" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/extra_titleText"
+            android:textColor="@color/extra_titleText_textcolor_progress_dialog"
+            android:textSize="@dimen/extra_font_titleText_progress_dialog" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/extra_labelLinearLayout_padding_progress_dialog" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/extra_labelText_success"
+            android:textColor="@color/extra_labelText_textcolor_progress_dialog"
+            android:textSize="@dimen/extra_font_labelText_progress_dialog" />
+
+        <TextView
+            android:id="@+id/successNumText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/extra_successNumText_margin_r_progress_dialog"
+            android:textColor="@color/extra_successNumText_textcolor_progress_dialog"
+            android:textSize="@dimen/extra_font_successNumText_progress_dialog" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/extra_labelText_fail"
+            android:textColor="@color/extra_labelText_textcolor_progress_dialog"
+            android:textSize="@dimen/extra_font_labelText_progress_dialog" />
+
+        <TextView
+            android:id="@+id/failNumText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/extra_failNumText_textcolor_progress_dialog"
+            android:textSize="@dimen/extra_font_failNumText_progress_dialog" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/uploadProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/extra_uploadProgressBar_height_progress_dialog"
+        android:layout_marginLeft="@dimen/extra_uploadProgressBar_margin_lr_progress_dialog"
+        android:layout_marginRight="@dimen/extra_uploadProgressBar_margin_lr_progress_dialog"
+        android:progressDrawable="@drawable/extra_layer_list_progressbar_upload_progress_dialog" />
+
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/extra_progressText_margin_progress_dialog"
+        android:gravity="center"
+        android:textSize="@dimen/extra_font_progressText_progress_dialog" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/extra_cancelButton_height_progress_dialog"
+        android:layout_marginBottom="@dimen/extra_cancelButton_margin_b_progress_dialog"
+        android:layout_marginLeft="@dimen/extra_cancelButton_margin_lr_progress_dialog"
+        android:layout_marginRight="@dimen/extra_cancelButton_margin_lr_progress_dialog"
+        android:background="@drawable/extra_selector_button_cancel_progress_dialog"
+        android:text="@string/extra_cancelButton"
+        android:textColor="@color/extra_cancelButton_textcolor_progress_dialog"
+        android:textSize="@dimen/extra_font_cancelButton_progress_dialog" />
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/extra_relativelayout_bar_height_app"
+        android:layout_weight="0"
+        android:background="@color/extra_relativelayout_bar_bg_app"
+        android:padding="@dimen/extra_relativelayout_bar_padding_app" >
+
+        <ImageView
+            android:id="@+id/backImageView"
+            android:layout_width="@dimen/extra_imageview_back_wh_app"
+            android:layout_height="@dimen/extra_imageview_back_wh_app"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/extra_selector_imageview_back_app" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/extra_textview_title"
+            android:textColor="@color/extra_textview_title_textcolor_app"
+            android:textSize="@dimen/extra_font_textview_title_bar_app" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/audioImageView"
+            android:layout_width="@dimen/extra_imageview_audio_width_app"
+            android:layout_height="@dimen/extra_imageview_audio_height_app"
+            android:layout_marginBottom="@dimen/extra_imageview_audio_margin_b_app"
+            android:src="@drawable/extra_selector_imageview_audio_app" />
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/extra_textview_time"
+            android:textColor="@color/extra_textview_time_textcolor_app"
+            android:textSize="@dimen/extra_font_textview_time_app" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/completeLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/extra_linearlayout_complete_height_app"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/extra_selector_button_operate_app"
+            android:text="@string/extra_button_cancel"
+            android:textColor="@color/extra_button_operate_textcolor_app" />
+
+        <View
+            android:layout_width="@dimen/extra_view_divider_width_app"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/extra_view_divider_bg_app" />
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/extra_selector_button_operate_app"
+            android:text="@string/extra_button_play"
+            android:textColor="@color/extra_button_operate_textcolor_app" />
+
+        <View
+            android:layout_width="@dimen/extra_view_divider_width_app"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/extra_view_divider_bg_app" />
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/extra_selector_button_operate_app"
+            android:text="@string/extra_button_confirm"
+            android:textColor="@color/extra_button_operate_textcolor_app" />
+    </LinearLayout>
+
+</LinearLayout>

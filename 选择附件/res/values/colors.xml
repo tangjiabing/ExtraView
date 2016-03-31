@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- extraview.xml -->
+    <color name="extra_linearlayout_tab_bg">#e0e0e0</color>
+
+    <!-- extra_gallery_item.xml -->
+    <color name="extra_textview_name_textcolor_gallery_item">#808080</color>
+    <color name="extra_linearlayout_mask_bg_gallery_item">#33666666</color>
+    <color name="extra_linearlayout_root_bg_gallery_item">@android:color/transparent</color>
+    <color name="extra_linearlayout_root_selected_bg_gallery_item">@android:color/holo_blue_bright</color>
+
+    <!-- extra_dialog.xml -->
+    <color name="extra_linearlayout_root_bg_dialog">#ffffff</color>
+    <color name="extra_linearlayout_title_bg_dialog">#e0e0e0</color>
+    <color name="extra_textview_title_textcolor_dialog">#808080</color>
+
+    <!-- extra_dialog_listview_item.xml -->
+    <color name="extra_textview_operate_textcolor_dialog_listview_item">#333333</color>
+
+    <!-- extra_audio_app_activity.xml -->
+    <color name="extra_relativelayout_bar_bg_app">@android:color/holo_blue_light</color>
+    <color name="extra_textview_title_textcolor_app">#ffffff</color>
+    <color name="extra_textview_time_textcolor_app">#333333</color>
+    <color name="extra_button_operate_pressed_bg_app">@android:color/holo_blue_dark</color>
+    <color name="extra_button_operate_bg_app">@android:color/holo_blue_light</color>
+    <color name="extra_button_operate_textcolor_app">#ffffff</color>
+    <color name="extra_view_divider_bg_app">#ffffff</color>
+
+    <!-- extra_progress_dialog.xml -->
+    <color name="extra_rootLinearLayout_bg_progress_dialog">@color/extra_linearlayout_root_bg_dialog</color>
+    <color name="extra_titleLinearLayout_bg_progress_dialog">@color/extra_linearlayout_title_bg_dialog</color>
+    <color name="extra_titleText_textcolor_progress_dialog">@color/extra_textview_title_textcolor_dialog</color>
+    <color name="extra_labelText_textcolor_progress_dialog">#333333</color>
+    <color name="extra_successNumText_textcolor_progress_dialog">@android:color/holo_blue_light</color>
+    <color name="extra_failNumText_textcolor_progress_dialog">@android:color/holo_red_light</color>
+    <color name="extra_cancelButton_textcolor_progress_dialog">@android:color/holo_red_light</color>
+    <color name="extra_cancelButton_gradient_startColor_progress_dialog">#e0e0e0</color>
+    <color name="extra_cancelButton_gradient_endColor_progress_dialog">#c0c0c0</color>
+    <color name="extra_cancelButton_pressed_gradient_startColor_progress_dialog">#d0d0d0</color>
+    <color name="extra_cancelButton_pressed_gradient_endColor_progress_dialog">#a0a0a0</color>
+    <color name="extra_uploadProgressBar_background_progress_dialog">#e7e7e7</color>
+    <color name="extra_uploadProgressBar_secondaryProgress_progress_dialog">#666664</color>
+    <color name="extra_uploadProgressBar_p_progress_dialog">#ff6733</color>
+
+</resources>
